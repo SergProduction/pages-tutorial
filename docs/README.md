@@ -22,7 +22,7 @@ Github позволяет совместно работать людям,
 введите название, решите будет он публичным или приватным
 поставьте галочку `Add a README file`
 
-!(alt)[https://github.com/SergProduction/pages-tutorial/blob/main/docs/assets/create.png?raw=true]
+!(alt)[/assets/create.png]
 
 ## Настройка публикаци сайта
 
@@ -31,11 +31,11 @@ Github позволяет совместно работать людям,
 я выбрал директорию **docs**, там я буду писать .md файлы и складывать картинки в **docs/assets**
 
 Когда будете делать ссылки в .md файле на другие файлы и картинки,  
-обратите внимание на путь, 
-для картинок нужно указывать полный путь,  
-а для документов можно относительный
+обратите внимание на путь, для **pages** сайта нужно указывать относительный путь от корневой директории,  
+в этом случае я складываю картинки в папку **docs/assets**  
+и указываю путь `!(alt)[/assets/settings.png]`,    
 
-!(alt)[https://github.com/SergProduction/pages-tutorial/blob/main/docs/assets/settings.png?raw=true]
+!(alt)[/assets/settings.png]
 
 ## Проверка сайта
 
@@ -47,7 +47,7 @@ Github позволяет совместно работать людям,
 Вы увидите ссылку на новый сайт "Visite site",  
 нажав на нее вы попадете на ваш новый сайт, но он пустой  
 
-!(alt)[https://github.com/SergProduction/pages-tutorial/blob/main/docs/assets/activate.png?raw=true]
+!(alt)[/assets/activate.png]
 
 Создайте и сохраните файл /docs/README.md,  
 это будет стартовая страница нового сайта,  
